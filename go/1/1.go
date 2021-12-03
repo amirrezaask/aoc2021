@@ -24,6 +24,7 @@ func partOne(input []string) int {
 	}
 	return increased
 }
+
 func partTwo(input []string) int {
 	// x,y,z are three elements of the sliding window
 	var last int
@@ -57,5 +58,4 @@ func main() {
 	increaseTwo := partTwo(input)
 	fmt.Println(increaseOne)
 	fmt.Println(increaseTwo)
-
 }
