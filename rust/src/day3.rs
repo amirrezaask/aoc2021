@@ -53,7 +53,7 @@ fn solve_one(path: &str) {
     }
     let gamma_rate =  isize::from_str_radix(&gamma_rate_str, 2).unwrap();
     let epsilon_rate = isize::from_str_radix(&epsilon_rate_str, 2).unwrap();
-    println!("answer to day 3 first part is {}", gamma_rate*epsilon_rate)
+    println!("answer to day 3 part 1 is {}", gamma_rate*epsilon_rate)
     
 }
 

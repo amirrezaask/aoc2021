@@ -34,10 +34,7 @@ fn solve_part_one(path: &str) {
         }
         last = number
     }
-    println!(
-        "answer to first part of first day challenge is {}",
-        increased
-    )
+    println!("answer to day 1 part 1 is {}", increased)
 }
 
 fn solve_part_two(path: &str) {
@@ -77,7 +74,7 @@ fn solve_part_two(path: &str) {
     }
 
     println!(
-        "answer to second part of first day challenge is {}",
+        "answer to day 1 part 2 is {}",
         increased
     );
 }

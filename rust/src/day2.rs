@@ -35,7 +35,7 @@ fn solve_one(path: &str) {
             d -= command.arg
         }
     }
-    println!("answer to day 2 first part is {}", d * h);
+    println!("answer to day 2 part 2 is {}", d * h);
 }
 fn solve_two(path: &str) {
     let fd = File::open(path).unwrap();
@@ -67,7 +67,7 @@ fn solve_two(path: &str) {
         }
     }
 
-    println!("answer to day 2 second part is {}", d * h);
+    println!("answer to day 2 part 2 is {}", d * h);
 }
 
 pub fn solve(path: &str) {
